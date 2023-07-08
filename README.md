@@ -17,9 +17,9 @@ Donc voici les étapes à suivre :
 - Allez sur la liste déroulante et faites clic droit, puis inspecter
 - Normalement, vous devriez être au niveau du select avec l'ID : InconnexingDiscoverSource
 - Cliquez sur la flèche à côté du "select", vous devriez voir apparaître '<option value="opt_out_managed"...>' et '<option value="opt_out"...>'
-- ![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/38bf5552-ff4e-45e6-8f14-864a48f4d246)
+- ![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/72125953-09ec-4e16-b526-81adca72d832)
 - Cliquez sur 'opt_out' ou "opt_out_managed" et changez la valeur par 'opt_in'
-- ![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/0592eaf1-359a-46cf-a899-058cb9181c05)
+- ![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/c9db710d-b580-4d8c-b3a4-8e30a89df4e4)
 - Si vous avez changé la valeur de 'opt_out', alors sélectionnez "Désactiver" dans la liste déroulante. Et si vous avez changé la valeur de "opt_out_managed", sélectionnez "Désactiver pour les utilisateurs gérés"
 - Puis cliquez sur "Enregistrer les modifications"
 - Et voilà, l'option sera disponible pour vos comptes gérés.
@@ -27,7 +27,8 @@ Donc voici les étapes à suivre :
 Pour vérifier si la manipulation à fonctionner, retournez sur la liste déroulante et normalement la valeur sélectionnée sera "opt_in".
 Aussi, connectez-vous avec un compte géré et dans la barre latérale à gauche, vous devriez avoir "Découvrez", s'il n'est pas présent, sélectionnez le "Plus" et épingler "Découvrez".
 
-![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/fba0f608-d941-4acc-8d81-de7fdd4de2ee) ![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/972d0597-4c90-4988-937b-701a430e3e4c)
+![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/95d552d9-8d48-4d1d-ae4a-bd690c09816d) ![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/9e4e4667-fb32-4c48-80dd-2cf412f7674a)
+
 
 
 
@@ -35,7 +36,10 @@ A savoir:
 
 Grâce à cette astuce, ![Plex_Debrid](https://github.com/itsToggle/plex_debrid) fonctionne avec tout les utilisateurs. Il suffit juste d'ajouter les utilisateurs dans Plex_Debrid avec leur bon Token.
 Quand vous êtes connecté sur un compte d'utilisateur géré, faites un clic droit puis "Inspecter", puis aller dans l'onglet "Réseau", sélectionnez une requête (si vide, cliquez sur un média) et cherchez la valeur de "X-Plex-Token".
-![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/eb76e6f1-9b97-4d3b-9cca-a7b1ce72ce14)
+![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/11a131f7-60ab-4db8-aa20-70402325d78c)
+
+
+
 
 
 
@@ -55,9 +59,9 @@ So here are the steps to follow:
 - Go to the dropdown and right click, then inspect
 - Normally, you should be at the select level with ID: InconnexingDiscoverSource
 - Click on the arrow next to the "select", you should see '<option value="opt_out_managed"...>' and '<option value="opt_out"...>'
-- ![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/38bf5552-ff4e-45e6-8f14-864a48f4d246)
+- ![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/72125953-09ec-4e16-b526-81adca72d832)
 - Click on 'opt_out' or 'opt_out_managed' and change the value to 'opt_in'
-- ![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/0592eaf1-359a-46cf-a899-058cb9181c05)
+- ![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/c9db710d-b580-4d8c-b3a4-8e30a89df4e4)
 - If you changed the value of 'opt_out', then select 'Disable' from the drop-down list. And if you changed the value of "opt_out_managed", select "Disable for managed users"
 - Then click "Save Changes"
 - And that's it, the option will be available for your managed accounts.
@@ -65,10 +69,11 @@ So here are the steps to follow:
 To check if the manipulation worked, return to the drop-down list and normally the selected value will be "opt_in".
 Also, sign in with a managed account and in the sidebar on the left you should have "Discover", if it's not present, select the "More" and pin "Discover".
 
-![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/fba0f608-d941-4acc-8d81-de7fdd4de2ee) ![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/972d0597-4c90-4988-937b-701a430e3e4c)
+
+![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/95d552d9-8d48-4d1d-ae4a-bd690c09816d) ![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/9e4e4667-fb32-4c48-80dd-2cf412f7674a)
 
 To know:
 
 Thanks to this trick, ![Plex_Debrid](https://github.com/itsToggle/plex_debrid) works with all users. Just add users in Plex_Debrid with their correct Token.
 When you are connected to a managed user account, right click then "Inspect", then go to the "Network" tab, select a query (if empty, click on a media) and look for the value of "X -Plex-Token".
-![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/eb76e6f1-9b97-4d3b-9cca-a7b1ce72ce14)
+![image](https://github.com/MaitreKuc/Plex_Discover_Managed_Users/assets/30301747/11a131f7-60ab-4db8-aa20-70402325d78c)
